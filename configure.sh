@@ -1,6 +1,6 @@
 # configura la customización de nano
 sudo cp /etc/nanorc /etc/nanorc.bak
-sudo cat ./nano/.nanorc > /etc/nanorc
+sudo cat ./nano/config > /etc/nanorc
 sudo rm ./nano/.nanorc
 sudo ln -s /etc/nanorc ./nano/.nanorc
 sudo chown $USER:$USER ./nano/.nanorc
